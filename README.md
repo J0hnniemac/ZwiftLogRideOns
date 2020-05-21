@@ -1,5 +1,5 @@
 # ZwiftLogRideOns
-Python Script that reads active Zwift log counting RideOn and extracts who gave the Rideon
+Python Script that reads active Zwift log counting RideOns and extracts who gave the Rideon
 
 The Scrip needs python installed!
 
