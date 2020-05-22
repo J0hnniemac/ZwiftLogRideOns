@@ -7,14 +7,16 @@ To use:
 modify the three variable to match your setup
 
 Variables
+
 The actual zwift logfile
-logfile = 'C:\\Users\\Johnx\\OneDrive\\Documents2\\Zwift\\Logs\\Log.txt'
+zwift_logfile = os.path.join(zwift_data, "Log.txt")
 
 Where you want the rideon totals to be written to
-rideontotalfile = 'C:\\Users\\Johnx\\OneDrive\\Documents2\\ZwiftStreaming\\Overlays\\Dynamic\\RideOnTotals.txt'
+rideontotalfile = os.path.join(output_path, "RideOnTotals.txt")
 
 Where you want the name to be written to
-notificationfile = 'C:\\Users\\Johnx\\OneDrive\\Documents2\\ZwiftStreaming\\Overlays\\Dynamic\\Notify.txt
+notificationfile = os.path.join(output_path, "Notify.txt")
+
 
 
 What I use this for ?
